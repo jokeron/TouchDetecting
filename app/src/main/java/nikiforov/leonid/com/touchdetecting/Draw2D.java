@@ -2,6 +2,7 @@ package nikiforov.leonid.com.touchdetecting;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Paint;
 import android.view.View;
 
@@ -21,6 +22,7 @@ public class Draw2D extends View {
         mPaint.setStyle(Paint.Style.FILL);
 
         //закрашиваем холст белым
-        
+        mPaint.setColor(Color.WHITE);
+        canvas.drawPaint(mPaint);
     }
 }
