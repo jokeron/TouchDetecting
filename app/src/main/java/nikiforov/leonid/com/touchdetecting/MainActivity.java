@@ -11,5 +11,8 @@ public class MainActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_main);
         Draw2D draw2D = new Draw2D(this);
         setContentView(draw2D);
+
+
+
     }
 }
