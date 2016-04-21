@@ -12,7 +12,7 @@ public class Draw2D extends View {
         super(context);
     }
     @Override
-    protected void Draw2D(Canvas canvas){
+    protected void onDraw(Canvas canvas){
         super.onDraw(canvas);
     }
 }
